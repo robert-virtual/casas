@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\DepartamentosController;
+use App\Http\Controllers\HousesController;
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,9 +18,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[CatalogController::class,'index']);
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
+Route::resource('houses',HousesController::class);
 Route::get('/inicio',[DepartamentosController::class,'getIndex']);
 Route::get('/depa/{id}',[DepartamentosController::class,'getDepa']);
+
+Route::delete('/logout',[UsersController::class,'logout']);
+Route::post('/login',[UsersController::class,'login']);
+Route::post('/registro',[UsersController::class,'registro']);
+Route::view('/registro','users.registro');
+Route::view('/login','users.login');

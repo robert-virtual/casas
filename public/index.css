@@ -13,13 +13,30 @@ nav{
  gap: 0.25rem;
  background-color: #0984e3;
 }
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.m-05{
+  margin: 0.5rem;
+}
+.m-1{
+  margin:1rem ;
+}
 main{
   padding: 0.5rem;
-  text-align: center;
   min-height: 50vh;
 }
-
-a{
+nav button{
+  background: none;
+  border: none;
+  outline: none;
+}
+nav a,nav button{
   color: white;
   text-decoration: none;
   padding: 0.5rem;
@@ -27,7 +44,7 @@ a{
   border-radius: 0.5rem;
 }
 
-a:hover{
+nav a:hover,nav button:hover{
   background-color: white;
   color: #0984e3;
 }

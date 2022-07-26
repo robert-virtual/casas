@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\House;
 use Illuminate\Http\Request;
 
 class CatalogController extends Controller
@@ -14,7 +15,7 @@ class CatalogController extends Controller
     public function index()
     {
         //
-        return redirect("/inicio");
+        return redirect('/inicio');
     }
 
     /**
