@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
       DepartmentSeeder::class,
       CitySeeder::class,
       HouseTypeSeeder::class,
+      UserSeeder::class,
       HouseSeeder::class,
     ]);
     // \App\Models\User::factory(10)->create();
