@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title',"Crear Cuenta")
+@section('title',"Crear Casa")
 
 @section('content')
-<h1>Crear Cuenta</h1>
+<h1>Crear Casa</h1>
 <form action="/houses" method="POST" class="col" enctype="multipart/form-data">
   @csrf
   <label class="m-05">

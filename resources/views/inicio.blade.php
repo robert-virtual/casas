@@ -17,7 +17,8 @@
     <img  src="{{asset('images/'.$house->image)}}" alt="{{$house->image}}">
     <p>Precio: Lps. {{$house->price}}</p>
     <a href='{{url('/depa/'.$house->city->department_id)}}'>Ubicacion: {{$house->city->city}}, {{$house->city->department->department}}</a>
-    <p>Vendedor: {{$house->user->name}}</p>
+    <p>Propietario: {{$house->user->name}}</p>
+    <p>Tipo: {{$house->housetype->type}}</p>
   </div>
   @endforeach
 </div>

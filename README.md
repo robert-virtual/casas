@@ -1,3 +1,31 @@
 # Resultado final
 
-![resulltado](https://user-images.githubusercontent.com/87434174/177463783-a8ac8931-6152-47d3-95fe-58d47026186d.png)
+## inicio
+![Inicio](./screenshots/inicio.png)
+
+
+
+## Casas por departamebto
+![Inicio](./screenshots/house-depas.png)
+
+
+
+## Crear cuenta
+![Inicio](./screenshots/crear-cuenta.png)
+
+
+
+## Login
+![Inicio](./screenshots/login.png)
+
+
+
+## Logeado
+![Inicio](./screenshots/logeado.png)
+
+
+## Crear Casa
+![Inicio](./screenshots/crear-casa.png)
+
+
+
